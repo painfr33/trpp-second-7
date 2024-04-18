@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_7.entity;
+package ru.mirea.trppsecond7.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.opencsv.bean.CsvBindByName;
@@ -20,7 +20,7 @@ public class Movie {
     @JsonProperty("name")
     @CsvBindByName(column = "name")
     private String name;
-    /** Жанр */
+    /** Жанр. */
     @JsonProperty("genre")
     @CsvBindByName(column = "genre")
     private String genre;
